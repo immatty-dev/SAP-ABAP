@@ -18,6 +18,7 @@ CLASS z_quick_select DEFINITION.
                            iv_kth_n        TYPE i
                  CHANGING  iv_table        TYPE tt_array
                  RETURNING VALUE(rv_value) TYPE i,
+                 
       find_pos IMPORTING iv_left       TYPE i
                          iv_right      TYPE i
                CHANGING  iv_table      TYPE tt_array
