@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 *&-------- Kth Smallest/Largest Element in Unsorted Array -------------*
 *&---------------------------------------------------------------------*
-
+ 
 REPORT z_quick_select.
 
 TYPES tt_array TYPE TABLE OF i WITH NON-UNIQUE KEY table_line.
